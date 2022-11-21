@@ -70,7 +70,6 @@
 
 .img-paper-responsive {
   border-radius: 2px;
-  max-width: 92%;
   /* box shadow #9 taken from https://getcssscan.com/css-box-shadow-examples */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -78,5 +77,18 @@
 @media screen and (max-width: 768px) {
   .avatar {
     max-width: 70%;
+  }
+  .column-left img {
+    margin-bottom: -2rem;
+  }
+}
+
+.column-right {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .column-right {
+    margin-top: 0.5rem;
   }
 }
