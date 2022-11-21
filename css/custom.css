@@ -1,0 +1,82 @@
+.hero-body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(78, 54, 41, 0.7);
+  color: aliceblue;
+}
+
+.hero-body {
+  background-image: url('/img/robinson.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  flex-shrink: 0;
+  position: relative;
+  padding: 3rem 1.5rem;
+}
+
+
+.markdown p {
+  margin-top: 0em;
+}
+
+.title.is-1 {
+  font-weight: 600;
+  font-size: 85px;
+  font-family: 'CircularStd', 'Minion Pro', sans-serif;
+  color: #FFC72C;
+}
+
+.hero.is-small {
+  padding: 1.5rem;
+}
+
+.hero.is-medium {
+  padding: 0rem;
+}
+
+.fade-in.fast {
+  animation-duration: 0.21s;
+}
+
+.modal-card-head {
+  padding-top: 21px;
+  padding-bottom: 7px;
+  border-bottom: none;
+  align-items: start;
+}
+
+.modal-card-title {
+  font-family: 'CircularStd', 'Minion Pro', sans-serif;
+}
+
+.modal-card-foot {
+  border-top: none;
+  justify-content: flex-start;
+  padding-bottom: 21px;
+}
+
+.img-responsive {
+  border-radius: 2px;
+  max-width: 92%;
+  /* box shadow #19 taken from https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.img-paper-responsive {
+  border-radius: 2px;
+  max-width: 92%;
+  /* box shadow #9 taken from https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    max-width: 70%;
+  }
+}

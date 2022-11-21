@@ -1,0 +1,7 @@
+Workplace flexibility tends to interact with production processes that utilize labor inputs at different skill levels.
+When firms' implicit costs of providing an amenity depend on worker skills, compensating price differentials can vary across the wage distribution and provides a novel channel for understanding the sources of wage inequality.
+The difficulty of estimating equilibrium amenity prices stems from the unobservability of worker ability and preferences.
+In a model that incorporates differences in firms' costs of providing amenities to workers of different skill levels, directly measuring worker preferences makes it possible to estimate amenity prices as a function of worker types.
+We use a Bayesian Adaptive Choice Experiment (BACE) to collect individual-level data on the willingness to pay for different forms of workplace flexibility, along with wages and work arrangements.
+Workers along the earnings distribution value flexibility similarly on average, but high-earnings workers tend to have flexible location and flexible schedule, and low-earnings workers tend to have the option to work reduced hours.
+The model captures these key patterns, and we use the estimates to explore the welfare consequences of workers facing different amenity prices.
