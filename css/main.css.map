@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/nthakral/Dropbox (Brown)/T&T/website-nt",
+	"sourceRoot": "/Users/ttecon/Dropbox (BOSTON UNIVERSITY)/T&T/website-nt",
 	"sources": [
 		"themes/introduction/assets/sass/style.sass",
 		"assets/sass/_fonts.sass",
