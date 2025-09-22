@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/ttecon/Dropbox (Personal)/CV/website-nt",
+	"sourceRoot": "/Users/linhto/Brown Dropbox/Neil Thakral/CV/website-nt",
 	"sources": [
 		"themes/introduction/assets/sass/style.sass",
 		"assets/sass/_fonts.sass",
