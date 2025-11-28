@@ -1,0 +1,3 @@
+Using administrative data on NYC yellow taxis around the September 4, 2012 fare increase and cross-vendor payment interfaces that hold displayed tip percentages constant, we document five facts about tipping.
+Higher bases raise tips even among non-default tippers; fare increases raise tip dollars but reduce tip ratios; identical dollar increases move tips more under lower bases; tolls crowd out tips when excluded from default bases but crowd in when included; and riders share unexpected fare windfalls with drivers.
+A simple model with a default-based norm and convex pain of paying rationalizes these facts and highlights design implications for digital tipping.
