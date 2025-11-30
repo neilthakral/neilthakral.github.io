@@ -162,146 +162,13 @@ Curriculum Vitae - Neil Thakral
         <div class="section">
             
 <div class="container markdown top-pad">
-    <p><a href="/files/CV.pdf"><i class="fa fa-download"></i>
- CV (pdf)</a></p>
-<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator_top, #paginator_bottom{
-    text-align: center;
-    margin-bottom: 10px;
-}
-#prev_top, #prev_bottom{
-    text-align: center;
-    vertical-align:middle;
-    display:inline-block;
-}
-</style>
-
-
-<div  id="paginator_top">
-    <button class="button is-outlined is-primary is-rounded" id="prev_top">Previous</button>
-    <button class="button is-outlined is-primary is-rounded" id="next_top">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num_top"></span>&nbsp;/&nbsp;<span id="page_count_top"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-<div id="paginator_bottom">
-  <button class="button is-outlined is-primary is-rounded" id="prev_bottom">Previous</button>
-  <button class="button is-outlined is-primary is-rounded" id="next_bottom">Next</button>
-  &nbsp; &nbsp;
-  <span>Page: <span id="page_num_bottom"></span>&nbsp;/&nbsp;<span id="page_count_bottom"></span></span>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-
-var url = "\/files\/CV.pdf";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 2.1,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
     
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
 
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num_top').textContent = num;
-  document.getElementById('page_num_bottom').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev_top').addEventListener('click', onPrevPage);
-document.getElementById('prev_bottom').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next_top').addEventListener('click', onNextPage);
-document.getElementById('next_bottom').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count_top').textContent = pdfDoc.numPages;
-  document.getElementById('page_count_bottom').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
+<object
+    data="/files/CV.pdf#view=Fit&amp;page=1" width="100%" height="500px"type="application/pdf"
+>
+    <p>Unable to display PDF file. <a href="/files/CV.pdf#view=Fit&amp;page=1">Download</a> instead.</p>
+</object>
 
 
 </div>
@@ -321,22 +188,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         
         <div class="container has-text-centered">
             <div class="social-icons">
-    
-    <a href="/" >
-        <i class="fa fab fa-home"></i>
-    </a>
-    
-    <a href="https://scholar.google.com/citations?user=Oua-NeYAAAAJ&amp;hl=en" >
-        <i class="ai fab ai-google-scholar"></i>
-    </a>
-    
-    <a href="https://github.com/tt-econ/" >
-        <i class="fab fab fa-github"></i>
-    </a>
-    
-    <a href="mailto:neil_thakral@brown.edu" >
-        <i class="fas fab fa-envelope"></i>
-    </a>
     
 </div>
 
