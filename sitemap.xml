@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50628/cv/</loc>
+    <loc>https://neilthakral.github.io/cv/</loc>
   </url><url>
-    <loc>http://localhost:50628/media/</loc>
+    <loc>https://neilthakral.github.io/media/</loc>
   </url><url>
-    <loc>http://localhost:50628/</loc>
+    <loc>https://neilthakral.github.io/</loc>
   </url><url>
-    <loc>http://localhost:50628/tags/</loc>
+    <loc>https://neilthakral.github.io/tags/</loc>
   </url>
 </urlset>

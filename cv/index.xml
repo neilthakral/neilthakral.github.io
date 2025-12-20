@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curriculum Vitae on Neil Thakral</title>
-    <link>http://localhost:50628/cv/</link>
+    <link>https://neilthakral.github.io/cv/</link>
     <description>Recent content in Curriculum Vitae on Neil Thakral</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:50628/cv/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neilthakral.github.io/cv/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
