@@ -225,7 +225,7 @@ Each paper below is accompanied by a 31-syllable description, as in a <em>tanka<
 
 <div class="markdown has-text-left">
 <h4>
-    Excess Anticipation-Dependence in Consumption
+    Scale-Equivariant Transformations
 </h4>
 </div>
 
@@ -233,20 +233,20 @@ Each paper below is accompanied by a 31-syllable description, as in a <em>tanka<
 <div class="columns">
     <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
         
-            <a href= files/papers/consumption.pdf>
-                <img class="img-paper-responsive" src="/img/papers/consumption_hu_6df7c089e0ac5bb1.jpeg">
+            <a href= files/papers/transformations.pdf>
+                <img class="img-paper-responsive" src="/img/papers/transformations_hu_85254c5c72e6820a.jpeg">
             </a>
         
     </div>
     <div class="markdown column column-right is-vcentered">
     <p style="font-size:1.5px;"><br></p>
-        <p>What do cash transfers<br>
-and stimulus checks have in<br>
-common? The longer<br>
-you anticipate it the<br>
-less you spend, the more you save.</p>
+        <p>Dollars and shillings<br>
+give different estimates<br>
+unless you use the<br>
+log transform (without zeros)<br>
+or power transformation.</p>
 <p><em>Neil Thakral and <a href="https://linh.to/">Linh Tô</a></em><br>
-Revise and Resubmit, <em>Econometrica</em></p>
+May 2026</p>
 
 
         
@@ -257,13 +257,13 @@ Revise and Resubmit, <em>Econometrica</em></p>
         
         
 
-        <a class="bibtexbutton" data-target="#consumptionabs">
+        <a class="bibtexbutton" data-target="#transformationsabs">
             
             <i class="fa fa-list-alt"></i>&nbsp;abstract
             
         </a>
 
-        <div class="modal fade-in fast" id="consumptionabs">
+        <div class="modal fade-in fast" id="transformationsabs">
             <div class="modal-background"></div>
             <div class="modal-card">
                 <header class="modal-card-head">
@@ -275,7 +275,7 @@ Revise and Resubmit, <em>Econometrica</em></p>
                     </a>
                 </header>
                 <div class="modal-card-body markdown">
-                    <p id="text-to-copy">This paper proposes that the marginal propensity to consume out of windfalls depends on a new state variable, the time horizon over which households anticipate receiving payments. We test this using a natural experiment from the randomized disbursement dates of a U.S. fiscal stimulus payment and assess external validity using randomized controlled trials on unconditional cash transfers in Kenya and Malawi. The data show evidence of <em>excess anticipation-dependence</em>: Consumption responds more to receiving additional income after a shorter anticipation duration, beyond what standard models predict. While households receiving stimulus payments do not increase spending in advance, additional consumption expenditure in the month after receiving payment drops over 40 percent for each additional week a household awaits payment. We estimate a mental-accounting model that incorporates this novel form of history dependence and discuss policy implications. Our approach reconciles conflicting results that consumption responds to anticipated payments in some settings but not others.</p>
+                    <p id="text-to-copy">Data transformations facilitate regression analysis by addressing issues such as skewness and nonlinearity, yet many popular transformations make hypothesis testing misleading because results change with the measurement units of the data. Using data from a randomized experiment, we demonstrate that natural rescaling can drastically alter conclusions under widely used transformations. We formalize a minimal coherence requirement for empirical analysis: re-expressing the same data in different units should not change <em>t</em>-statistics and not distort predicted values beyond mechanical rescaling. For transformed-outcome linear regressions, we establish an equivalence theorem that links these properties to logarithmic and power transformations. We distinguish among structural, conditional-mean, and conditional-median semi-elasticities, and emphasize that these targets require additional, often strong, assumptions, even for logarithmic specifications. When interest centers on conditional-mean semi-elasticities, we show that log and power are also the only link functions in generalized linear models and outcome transformations in Tobit specifications that deliver scale invariance.</p>
                 </div>
                 <footer class="modal-card-foot">
                     <a class="button is-outlined is-primary is-rounded js-copy-cite">
@@ -296,14 +296,18 @@ Revise and Resubmit, <em>Econometrica</em></p>
         
         
             
-            <a href=files/papers/consumption.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            <a href=files/papers/transformations.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
             
         
         
             
-            <a href=files/papers/consumption_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
+            <a href=files/papers/transformations_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
             
         
+        
+        
+        
+        <a href=https://tt-econ.github.io/tregs/><i class="fa fa-tools"></i>&nbsp;package</a>
         
         
         
@@ -326,13 +330,13 @@ Revise and Resubmit, <em>Econometrica</em></p>
             
             
 
-            <a class="bibtexbutton" data-target="#consumptionbib">
+            <a class="bibtexbutton" data-target="#transformationsbib">
                 
                 <i class="fa fa-quote-left"></i>&nbsp;bibtex
                 
             </a>
 
-            <div class="modal fade-in fast" id="consumptionbib">
+            <div class="modal fade-in fast" id="transformationsbib">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head">
@@ -344,482 +348,8 @@ Revise and Resubmit, <em>Econometrica</em></p>
                         </a>
                     </header>
                     <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{thakral2025excess,
-  title={Excess Anticipation-Dependence in Consumption},
-  author={Thakral, Neil and T{\^o}, Linh T},
-  journal={Mimeo},
-  year={2025}
-}
-</code></pre>
-                    </div>
-                    <footer class="modal-card-foot">
-                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-copy"></i>
-                            </span>
-                            
-                            <span>Copy</span>
-                        </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/consumption.bib" download="consumption.bib">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-download"></i>
-                            </span>
-                            
-                            <span>Download</span>
-                        </a>
-                    </footer>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="markdown has-text-left">
-<h4>
-    Waiting for Windfalls
-</h4>
-</div>
-
-
-<div class="columns">
-    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
-        
-            <a href= files/papers/wait.pdf>
-                <img class="img-paper-responsive" src="/img/papers/wait_hu_6444a891e6127218.jpeg">
-            </a>
-        
-    </div>
-    <div class="markdown column column-right is-vcentered">
-    <p style="font-size:1.5px;"><br></p>
-        <p>Waiting longer leads<br>
-to more utility from<br>
-anticipation,<br>
-explains high MPCs, and<br>
-consumption smoothing puzzles.</p>
-<p><em>Neil Thakral</em><br>
-Revise and Resubmit, <em>Journal of Public Economics</em></p>
-
-
-        
-        
-        
-        
-        
-        
-        
-
-        <a class="bibtexbutton" data-target="#waitabs">
-            
-            <i class="fa fa-list-alt"></i>&nbsp;abstract
-            
-        </a>
-
-        <div class="modal fade-in fast" id="waitabs">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-                <header class="modal-card-head">
-                    <p class="modal-card-title">Abstract</p>
-                    <a class="button close is-outlined is-primary is-small is-round">
-                        <span class="icon is-small">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </a>
-                </header>
-                <div class="modal-card-body markdown">
-                    <p id="text-to-copy">We study how the timing of information about windfalls shapes spending decisions when consumers derive utility from anticipating future consumption through gain-loss experiences relative to anticipated outcomes. We show that longer waiting between news and access to funds lowers short-run spending and raises saving, even absent tight liquidity constraints. The framework also reproduces stylized facts about consumption responses to the arrival of gains but not news about gains, asymmetric smoothing of losses, and smaller MPCs for larger windfalls.</p>
-                </div>
-                <footer class="modal-card-foot">
-                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                        
-                        <span class="icon is-small">
-                            <i class="fa fa-copy"></i>
-                        </span>
-                        
-                        <span>Copy</span>
-                    </a>
-                    
-                </footer>
-            </div>
-        </div>
-        
-
-
-        
-        
-            
-            <a href=files/papers/wait.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
-            
-        
-        
-            
-            <a href=files/papers/wait_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-            
-            
-            
-            
-            
-            
-
-            <a class="bibtexbutton" data-target="#waitbib">
-                
-                <i class="fa fa-quote-left"></i>&nbsp;bibtex
-                
-            </a>
-
-            <div class="modal fade-in fast" id="waitbib">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">BibTeX</p>
-                        <a class="button close is-outlined is-primary is-small is-round">
-                            <span class="icon is-small">
-                                <i class="fa fa-times"></i>
-                            </span>
-                        </a>
-                    </header>
-                    <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{thakral2025waiting,
-  title={Waiting for Windfalls},
-  author={Thakral, Neil},
-  journal={Mimeo},
-  year={2025}
-}
-</code></pre>
-                    </div>
-                    <footer class="modal-card-foot">
-                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-copy"></i>
-                            </span>
-                            
-                            <span>Copy</span>
-                        </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/wait.bib" download="wait.bib">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-download"></i>
-                            </span>
-                            
-                            <span>Download</span>
-                        </a>
-                    </footer>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="markdown has-text-left">
-<h4>
-    Nutritional Nudges
-</h4>
-</div>
-
-
-<div class="columns">
-    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
-        
-            <a href= files/papers/supermarket.pdf>
-                <img class="img-paper-responsive" src="/img/papers/supermarket_hu_610e70df5deafb29.jpeg">
-            </a>
-        
-    </div>
-    <div class="markdown column column-right is-vcentered">
-    <p style="font-size:1.5px;"><br></p>
-        <p>Nudging healthier<br>
-shopping: more responsive types<br>
-improve nutrition;<br>
-less responsive group neglects<br>
-it, shops longer, and spends less.</p>
-<p><em>Mathias Wagner Barløse, <a href="https://kfireliaz.sites.tau.ac.il/">Kfir Eliaz</a>, Neil Thakral, and <a href="https://saritw.weebly.com/">Sarit Weisburd</a></em><br>
-Revise and Resubmit, <em>Economic Journal</em></p>
-
-
-        
-        
-        
-        
-        
-        
-        
-
-        <a class="bibtexbutton" data-target="#supermarketabs">
-            
-            <i class="fa fa-list-alt"></i>&nbsp;abstract
-            
-        </a>
-
-        <div class="modal fade-in fast" id="supermarketabs">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-                <header class="modal-card-head">
-                    <p class="modal-card-title">Abstract</p>
-                    <a class="button close is-outlined is-primary is-small is-round">
-                        <span class="icon is-small">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </a>
-                </header>
-                <div class="modal-card-body markdown">
-                    <p id="text-to-copy">We examine a four-month-long randomized intervention that provided information about healthier alternatives when online grocery shoppers added certain less-healthy products to their baskets, leading to significant and persistent average increases in healthier purchases. Using machine learning techniques, we characterize consumers&rsquo; direct responsiveness to the intervention and broader changes in behavior. More-responsive consumers make healthier purchases beyond the immediate scope of the intervention; less-responsive consumers engage in more active shopping behaviors, spending more time shopping and making cost-saving substitutions. These results highlight the capacity of information-based approaches to not only affect isolated consumer decisions but also shape behavior across multiple domains.</p>
-                </div>
-                <footer class="modal-card-foot">
-                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                        
-                        <span class="icon is-small">
-                            <i class="fa fa-copy"></i>
-                        </span>
-                        
-                        <span>Copy</span>
-                    </a>
-                    
-                </footer>
-            </div>
-        </div>
-        
-
-
-        
-        
-            
-            <a href=files/papers/supermarket.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-            
-            
-            
-            
-            
-            
-
-            <a class="bibtexbutton" data-target="#supermarketbib">
-                
-                <i class="fa fa-quote-left"></i>&nbsp;bibtex
-                
-            </a>
-
-            <div class="modal fade-in fast" id="supermarketbib">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">BibTeX</p>
-                        <a class="button close is-outlined is-primary is-small is-round">
-                            <span class="icon is-small">
-                                <i class="fa fa-times"></i>
-                            </span>
-                        </a>
-                    </header>
-                    <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{barlose2025nutritional,
-  title={Nutritional Nudges},
-  author={Barl{\o}se Wagner, Mathias and Eliaz, Kfir and Thakral, Neil and Weisburd, Sarit},
-  journal={Mimeo},
-  year={2025}
-}
-</code></pre>
-                    </div>
-                    <footer class="modal-card-foot">
-                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-copy"></i>
-                            </span>
-                            
-                            <span>Copy</span>
-                        </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/supermarket.bib" download="supermarket.bib">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-download"></i>
-                            </span>
-                            
-                            <span>Download</span>
-                        </a>
-                    </footer>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="markdown has-text-left">
-<h4>
-    Five Facts about Tipping
-</h4>
-</div>
-
-
-<div class="columns">
-    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
-        
-            <a href= files/papers/tips.pdf>
-                <img class="img-paper-responsive" src="/img/papers/tips_hu_6684db3523d27006.jpeg">
-            </a>
-        
-    </div>
-    <div class="markdown column column-right is-vcentered">
-    <p style="font-size:1.5px;"><br></p>
-        <p>Higher defaults raise<br>
-tips, mute response to fare change.<br>
-Fare increase lowers<br>
-tip ratio. Tolls crowd out<br>
-tips but riders share windfalls.</p>
-<p><em>Neil Thakral and <a href="https://linh.to/">Linh Tô</a></em><br>
-Revise and Resubmit, <em>Review of Economics and Statistics</em></p>
-
-
-        
-        
-        
-        
-        
-        
-        
-
-        <a class="bibtexbutton" data-target="#tipsabs">
-            
-            <i class="fa fa-list-alt"></i>&nbsp;abstract
-            
-        </a>
-
-        <div class="modal fade-in fast" id="tipsabs">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-                <header class="modal-card-head">
-                    <p class="modal-card-title">Abstract</p>
-                    <a class="button close is-outlined is-primary is-small is-round">
-                        <span class="icon is-small">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </a>
-                </header>
-                <div class="modal-card-body markdown">
-                    <p id="text-to-copy">Using administrative data on NYC yellow taxis around the September 4, 2012 fare increase and cross-vendor payment interfaces that hold displayed tip percentages constant, we document five facts about tipping.
-Higher bases raise tips even among non-default tippers; fare increases raise tip dollars but reduce tip ratios; identical dollar increases move tips more under lower bases; tolls crowd out tips when excluded from default bases but crowd in when included; and riders share unexpected fare windfalls with drivers.
-A simple model with a default-based norm and convex pain of paying rationalizes these facts and highlights design implications for digital tipping.</p>
-                </div>
-                <footer class="modal-card-foot">
-                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                        
-                        <span class="icon is-small">
-                            <i class="fa fa-copy"></i>
-                        </span>
-                        
-                        <span>Copy</span>
-                    </a>
-                    
-                </footer>
-            </div>
-        </div>
-        
-
-
-        
-        
-            
-            <a href=files/papers/tips.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-            
-            
-            
-            
-            
-            
-
-            <a class="bibtexbutton" data-target="#tipsbib">
-                
-                <i class="fa fa-quote-left"></i>&nbsp;bibtex
-                
-            </a>
-
-            <div class="modal fade-in fast" id="tipsbib">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">BibTeX</p>
-                        <a class="button close is-outlined is-primary is-small is-round">
-                            <span class="icon is-small">
-                                <i class="fa fa-times"></i>
-                            </span>
-                        </a>
-                    </header>
-                    <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{thakral2026five,
-  title={Five Facts about Tipping},
+                        <pre><code id="text-to-copy">@article{thakral2026when,
+  title={Scale-Equivariant Transformations},
   author={Thakral, Neil and T{\^o}, Linh T},
   journal={Mimeo},
   year={2026}
@@ -835,7 +365,167 @@ A simple model with a default-based norm and convex pain of paying rationalizes 
                             
                             <span>Copy</span>
                         </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/tips.bib" download="tips.bib">
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/transformations.bib" download="transformations.bib">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-download"></i>
+                            </span>
+                            
+                            <span>Download</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="markdown has-text-left">
+<h4>
+    Choice Errors and Choice Restrictions in Public Housing Allocation
+</h4>
+</div>
+
+
+<div class="columns">
+    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
+        
+            <a href= files/papers/pha.pdf>
+                <img class="img-paper-responsive" src="/img/papers/pha_hu_9fb92d0a6da992b9.jpeg">
+            </a>
+        
+    </div>
+    <div class="markdown column column-right is-vcentered">
+    <p style="font-size:1.5px;"><br></p>
+        <p>US and UK<br>
+public housing mechanisms<br>
+restrict households&rsquo; choices.<br>
+Bias reduces welfare in<br>
+UK more than in US.</p>
+<p><em><a href="https://canishknaik.github.io/">Canishk Naik</a> and Neil Thakral</em><br>
+May 2026</p>
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        <a class="bibtexbutton" data-target="#phaabs">
+            
+            <i class="fa fa-list-alt"></i>&nbsp;abstract
+            
+        </a>
+
+        <div class="modal fade-in fast" id="phaabs">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Abstract</p>
+                    <a class="button close is-outlined is-primary is-small is-round">
+                        <span class="icon is-small">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </header>
+                <div class="modal-card-body markdown">
+                    <p id="text-to-copy">Public housing authorities restrict applicants&rsquo; choices to balance prioritizing vulnerable households against preventing congestion. How do applicants&rsquo; mistakes influence the effectiveness of these restrictions? We combine administrative vacancy data with a survey of 587 UK public housing residents, estimating preferences via a choice experiment and eliciting biases directly. We compare two policies: the UK mechanism batches arrivals and restricts acceptances; the US mechanism restricts rejections. Under rationality, the US mechanism reduces congestion at the cost of weaker prioritization than the UK mechanism. Bias affects the UK mechanism more strongly overall—yet some individual mistakes improve social welfare by reducing congestion. The optimal mechanism therefore depends on applicant biases.</p>
+                </div>
+                <footer class="modal-card-foot">
+                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                        
+                        <span class="icon is-small">
+                            <i class="fa fa-copy"></i>
+                        </span>
+                        
+                        <span>Copy</span>
+                    </a>
+                    
+                </footer>
+            </div>
+        </div>
+        
+
+
+        
+        
+            
+            <a href=files/papers/pha.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            
+        
+        
+            
+            <a href=files/papers/pha_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+            
+            
+            
+            
+            
+            
+
+            <a class="bibtexbutton" data-target="#phabib">
+                
+                <i class="fa fa-quote-left"></i>&nbsp;bibtex
+                
+            </a>
+
+            <div class="modal fade-in fast" id="phabib">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">BibTeX</p>
+                        <a class="button close is-outlined is-primary is-small is-round">
+                            <span class="icon is-small">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="modal-card-body markdown">
+                        <pre><code id="text-to-copy">@article{naik2026welfare,
+  title={Choice Errors and Choice Restrictions in Public Housing Allocation},
+  author={Naik, Canishk and Thakral, Neil},
+  journal={Mimeo},
+  year={2026}
+}
+</code></pre>
+                    </div>
+                    <footer class="modal-card-foot">
+                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-copy"></i>
+                            </span>
+                            
+                            <span>Copy</span>
+                        </a>
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/pha.bib" download="pha.bib">
                             
                             <span class="icon is-small">
                                 <i class="fa fa-download"></i>
@@ -996,166 +686,6 @@ April 2026</p>
                             <span>Copy</span>
                         </a>
                         <a class="button is-outlined is-primary is-rounded" href="/files/bib/pooling.bib" download="pooling.bib">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-download"></i>
-                            </span>
-                            
-                            <span>Download</span>
-                        </a>
-                    </footer>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="markdown has-text-left">
-<h4>
-    Choice Errors and Choice Restrictions in Public Housing Allocation
-</h4>
-</div>
-
-
-<div class="columns">
-    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
-        
-            <a href= files/papers/pha.pdf>
-                <img class="img-paper-responsive" src="/img/papers/pha_hu_9fb92d0a6da992b9.jpeg">
-            </a>
-        
-    </div>
-    <div class="markdown column column-right is-vcentered">
-    <p style="font-size:1.5px;"><br></p>
-        <p>US and UK<br>
-public housing mechanisms<br>
-restrict households&rsquo; choices.<br>
-Bias reduces welfare in<br>
-UK more than in US.</p>
-<p><em><a href="https://canishknaik.github.io/">Canishk Naik</a> and Neil Thakral</em><br>
-March 2026</p>
-
-
-        
-        
-        
-        
-        
-        
-        
-
-        <a class="bibtexbutton" data-target="#phaabs">
-            
-            <i class="fa fa-list-alt"></i>&nbsp;abstract
-            
-        </a>
-
-        <div class="modal fade-in fast" id="phaabs">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-                <header class="modal-card-head">
-                    <p class="modal-card-title">Abstract</p>
-                    <a class="button close is-outlined is-primary is-small is-round">
-                        <span class="icon is-small">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </a>
-                </header>
-                <div class="modal-card-body markdown">
-                    <p id="text-to-copy">Public housing allocation requires balancing two objectives: prioritizing vulnerable households and preventing congestion from applicants holding out for desirable units. Housing authorities manage this trade-off by restricting applicants&rsquo; choices, but the effectiveness of these restrictions depends on the errors applicants make when choosing. We combine administrative vacancy data from a large London council with a choice experiment that separately identifies preferences and biases for 587 public housing residents to compare the welfare effects of two prominent allocation policies. The UK mechanism batches arrivals and lets applicants sign up for acceptable options; the US mechanism makes sequential offers with rejection penalties. Under rationality, the US mechanism reduces congestion at the cost of weaker prioritization. The UK mechanism is more vulnerable to bias—yet some biases can improve average welfare, as high-priority applicants&rsquo; mistakes free up better options for those below them.</p>
-                </div>
-                <footer class="modal-card-foot">
-                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                        
-                        <span class="icon is-small">
-                            <i class="fa fa-copy"></i>
-                        </span>
-                        
-                        <span>Copy</span>
-                    </a>
-                    
-                </footer>
-            </div>
-        </div>
-        
-
-
-        
-        
-            
-            <a href=files/papers/pha.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
-            
-        
-        
-            
-            <a href=files/papers/pha_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
-            
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-            
-            
-            
-            
-            
-            
-
-            <a class="bibtexbutton" data-target="#phabib">
-                
-                <i class="fa fa-quote-left"></i>&nbsp;bibtex
-                
-            </a>
-
-            <div class="modal fade-in fast" id="phabib">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">BibTeX</p>
-                        <a class="button close is-outlined is-primary is-small is-round">
-                            <span class="icon is-small">
-                                <i class="fa fa-times"></i>
-                            </span>
-                        </a>
-                    </header>
-                    <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{naik2026welfare,
-  title={Choice Errors and Choice Restrictions in Public Housing Allocation},
-  author={Naik, Canishk and Thakral, Neil},
-  journal={Mimeo},
-  year={2026}
-}
-</code></pre>
-                    </div>
-                    <footer class="modal-card-foot">
-                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-copy"></i>
-                            </span>
-                            
-                            <span>Copy</span>
-                        </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/pha.bib" download="pha.bib">
                             
                             <span class="icon is-small">
                                 <i class="fa fa-download"></i>
@@ -1499,170 +1029,6 @@ December 2025</p>
 
 <div class="markdown has-text-left">
 <h4>
-    When Are Estimates Independent of Measurement Units?
-</h4>
-</div>
-
-
-<div class="columns">
-    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
-        
-            <a href= files/papers/transformations.pdf>
-                <img class="img-paper-responsive" src="/img/papers/transformations_hu_85254c5c72e6820a.jpeg">
-            </a>
-        
-    </div>
-    <div class="markdown column column-right is-vcentered">
-    <p style="font-size:1.5px;"><br></p>
-        <p>Dollars and shillings<br>
-give different estimates<br>
-unless you use the<br>
-log transform (without zeros)<br>
-or power transformation.</p>
-<p><em>Neil Thakral and <a href="https://linh.to/">Linh Tô</a></em><br>
-August 2025</p>
-
-
-        
-        
-        
-        
-        
-        
-        
-
-        <a class="bibtexbutton" data-target="#transformationsabs">
-            
-            <i class="fa fa-list-alt"></i>&nbsp;abstract
-            
-        </a>
-
-        <div class="modal fade-in fast" id="transformationsabs">
-            <div class="modal-background"></div>
-            <div class="modal-card">
-                <header class="modal-card-head">
-                    <p class="modal-card-title">Abstract</p>
-                    <a class="button close is-outlined is-primary is-small is-round">
-                        <span class="icon is-small">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </a>
-                </header>
-                <div class="modal-card-body markdown">
-                    <p id="text-to-copy">Data transformations often facilitate regression analysis, yet many commonly used transformations make hypothesis testing misleading because the results change with the measurement units of the data. We demonstrate both theoretically and using data from a randomized experiment that popular transformations approximating the logarithmic function but accommodating non-positive data can drastically alter regression conclusions when simply changing units, producing findings that are uninformative at best or highly misleading at worst. Our main result characterizes the family of transformations yielding measurement-unit-independent conclusions through an equivalence theorem that links scale-invariant <em>t</em>-statistics, scale-equivariant coefficient estimates, and scale-invariant semi-elasticities with logarithmic and power transformations.</p>
-                </div>
-                <footer class="modal-card-foot">
-                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                        
-                        <span class="icon is-small">
-                            <i class="fa fa-copy"></i>
-                        </span>
-                        
-                        <span>Copy</span>
-                    </a>
-                    
-                </footer>
-            </div>
-        </div>
-        
-
-
-        
-        
-            
-            <a href=files/papers/transformations.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
-            
-        
-        
-            
-            <a href=files/papers/transformations_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
-            
-        
-        
-        
-        
-        <a href=https://tt-econ.github.io/tregs/><i class="fa fa-tools"></i>&nbsp;package</a>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-            
-            
-            
-            
-            
-            
-
-            <a class="bibtexbutton" data-target="#transformationsbib">
-                
-                <i class="fa fa-quote-left"></i>&nbsp;bibtex
-                
-            </a>
-
-            <div class="modal fade-in fast" id="transformationsbib">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">BibTeX</p>
-                        <a class="button close is-outlined is-primary is-small is-round">
-                            <span class="icon is-small">
-                                <i class="fa fa-times"></i>
-                            </span>
-                        </a>
-                    </header>
-                    <div class="modal-card-body markdown">
-                        <pre><code id="text-to-copy">@article{thakral2025when,
-  title={When Are Estimates Independent of Measurement Units},
-  author={Thakral, Neil and T{\^o}, Linh T},
-  journal={Mimeo},
-  year={2025}
-}
-</code></pre>
-                    </div>
-                    <footer class="modal-card-foot">
-                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-copy"></i>
-                            </span>
-                            
-                            <span>Copy</span>
-                        </a>
-                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/transformations.bib" download="transformations.bib">
-                            
-                            <span class="icon is-small">
-                                <i class="fa fa-download"></i>
-                            </span>
-                            
-                            <span>Download</span>
-                        </a>
-                    </footer>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="markdown has-text-left">
-<h4>
     Two-Stage Differences in Differences
 </h4>
 </div>
@@ -1804,6 +1170,665 @@ May 2025</p>
                             <span>Copy</span>
                         </a>
                         <a class="button is-outlined is-primary is-rounded" href="/files/bib/2sdd.bib" download="2sdd.bib">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-download"></i>
+                            </span>
+                            
+                            <span>Download</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+
+        
+        <div class="section" id="revision">
+            <div class="container">
+                <h2 class="title is-2 has-text-left">Under Revision</h2>
+                
+                <div class="markdown has-text-left">
+                    <p> </p>
+
+
+
+
+
+
+<div class="markdown has-text-left">
+<h4>
+    Excess Anticipation-Dependence in Consumption
+</h4>
+</div>
+
+
+<div class="columns">
+    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
+        
+            <a href= files/papers/consumption.pdf>
+                <img class="img-paper-responsive" src="/img/papers/consumption_hu_6df7c089e0ac5bb1.jpeg">
+            </a>
+        
+    </div>
+    <div class="markdown column column-right is-vcentered">
+    <p style="font-size:1.5px;"><br></p>
+        <p>What do cash transfers<br>
+and stimulus checks have in<br>
+common? The longer<br>
+you anticipate it the<br>
+less you spend, the more you save.</p>
+<p><em>Neil Thakral and <a href="https://linh.to/">Linh Tô</a></em><br>
+Revise and Resubmit, <em>Econometrica</em></p>
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        <a class="bibtexbutton" data-target="#consumptionabs">
+            
+            <i class="fa fa-list-alt"></i>&nbsp;abstract
+            
+        </a>
+
+        <div class="modal fade-in fast" id="consumptionabs">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Abstract</p>
+                    <a class="button close is-outlined is-primary is-small is-round">
+                        <span class="icon is-small">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </header>
+                <div class="modal-card-body markdown">
+                    <p id="text-to-copy">This paper proposes that the marginal propensity to consume out of windfalls depends on a new state variable, the time horizon over which households anticipate receiving payments. We test this using a natural experiment from the randomized disbursement dates of a U.S. fiscal stimulus payment and assess external validity using randomized controlled trials on unconditional cash transfers in Kenya and Malawi. The data show evidence of <em>excess anticipation-dependence</em>: Consumption responds more to receiving additional income after a shorter anticipation duration, beyond what standard models predict. While households receiving stimulus payments do not increase spending in advance, additional consumption expenditure in the month after receiving payment drops over 40 percent for each additional week a household awaits payment. We estimate a mental-accounting model that incorporates this novel form of history dependence and discuss policy implications. Our approach reconciles conflicting results that consumption responds to anticipated payments in some settings but not others.</p>
+                </div>
+                <footer class="modal-card-foot">
+                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                        
+                        <span class="icon is-small">
+                            <i class="fa fa-copy"></i>
+                        </span>
+                        
+                        <span>Copy</span>
+                    </a>
+                    
+                </footer>
+            </div>
+        </div>
+        
+
+
+        
+        
+            
+            <a href=files/papers/consumption.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            
+        
+        
+            
+            <a href=files/papers/consumption_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+            
+            
+            
+            
+            
+            
+
+            <a class="bibtexbutton" data-target="#consumptionbib">
+                
+                <i class="fa fa-quote-left"></i>&nbsp;bibtex
+                
+            </a>
+
+            <div class="modal fade-in fast" id="consumptionbib">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">BibTeX</p>
+                        <a class="button close is-outlined is-primary is-small is-round">
+                            <span class="icon is-small">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="modal-card-body markdown">
+                        <pre><code id="text-to-copy">@article{thakral2025excess,
+  title={Excess Anticipation-Dependence in Consumption},
+  author={Thakral, Neil and T{\^o}, Linh T},
+  journal={Mimeo},
+  year={2025}
+}
+</code></pre>
+                    </div>
+                    <footer class="modal-card-foot">
+                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-copy"></i>
+                            </span>
+                            
+                            <span>Copy</span>
+                        </a>
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/consumption.bib" download="consumption.bib">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-download"></i>
+                            </span>
+                            
+                            <span>Download</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="markdown has-text-left">
+<h4>
+    Waiting for Windfalls
+</h4>
+</div>
+
+
+<div class="columns">
+    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
+        
+            <a href= files/papers/wait.pdf>
+                <img class="img-paper-responsive" src="/img/papers/wait_hu_6444a891e6127218.jpeg">
+            </a>
+        
+    </div>
+    <div class="markdown column column-right is-vcentered">
+    <p style="font-size:1.5px;"><br></p>
+        <p>Waiting longer leads<br>
+to more utility from<br>
+anticipation,<br>
+explains high MPCs, and<br>
+consumption smoothing puzzles.</p>
+<p><em>Neil Thakral</em><br>
+Revise and Resubmit, <em>Journal of Public Economics</em></p>
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        <a class="bibtexbutton" data-target="#waitabs">
+            
+            <i class="fa fa-list-alt"></i>&nbsp;abstract
+            
+        </a>
+
+        <div class="modal fade-in fast" id="waitabs">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Abstract</p>
+                    <a class="button close is-outlined is-primary is-small is-round">
+                        <span class="icon is-small">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </header>
+                <div class="modal-card-body markdown">
+                    <p id="text-to-copy">We study how the timing of information about windfalls shapes spending decisions when consumers derive utility from anticipating future consumption through gain-loss experiences relative to anticipated outcomes. We show that longer waiting between news and access to funds lowers short-run spending and raises saving, even absent tight liquidity constraints. The framework also reproduces stylized facts about consumption responses to the arrival of gains but not news about gains, asymmetric smoothing of losses, and smaller MPCs for larger windfalls.</p>
+                </div>
+                <footer class="modal-card-foot">
+                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                        
+                        <span class="icon is-small">
+                            <i class="fa fa-copy"></i>
+                        </span>
+                        
+                        <span>Copy</span>
+                    </a>
+                    
+                </footer>
+            </div>
+        </div>
+        
+
+
+        
+        
+            
+            <a href=files/papers/wait.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            
+        
+        
+            
+            <a href=files/papers/wait_appendix.pdf><i class="fa fa-download"></i>&nbsp;appendix</a>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+            
+            
+            
+            
+            
+            
+
+            <a class="bibtexbutton" data-target="#waitbib">
+                
+                <i class="fa fa-quote-left"></i>&nbsp;bibtex
+                
+            </a>
+
+            <div class="modal fade-in fast" id="waitbib">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">BibTeX</p>
+                        <a class="button close is-outlined is-primary is-small is-round">
+                            <span class="icon is-small">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="modal-card-body markdown">
+                        <pre><code id="text-to-copy">@article{thakral2025waiting,
+  title={Waiting for Windfalls},
+  author={Thakral, Neil},
+  journal={Mimeo},
+  year={2025}
+}
+</code></pre>
+                    </div>
+                    <footer class="modal-card-foot">
+                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-copy"></i>
+                            </span>
+                            
+                            <span>Copy</span>
+                        </a>
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/wait.bib" download="wait.bib">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-download"></i>
+                            </span>
+                            
+                            <span>Download</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="markdown has-text-left">
+<h4>
+    Nutritional Nudges
+</h4>
+</div>
+
+
+<div class="columns">
+    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
+        
+            <a href= files/papers/supermarket.pdf>
+                <img class="img-paper-responsive" src="/img/papers/supermarket_hu_dcb1491844e425b3.jpeg">
+            </a>
+        
+    </div>
+    <div class="markdown column column-right is-vcentered">
+    <p style="font-size:1.5px;"><br></p>
+        <p>Nudging healthier<br>
+shopping: more responsive types<br>
+improve nutrition;<br>
+less responsive group neglects<br>
+it, shops longer, and spends less.</p>
+<p><em>Mathias Wagner Barløse, <a href="https://kfireliaz.sites.tau.ac.il/">Kfir Eliaz</a>, Neil Thakral, and <a href="https://saritw.weebly.com/">Sarit Weisburd</a></em><br>
+Revise and Resubmit, <em>Economic Journal</em></p>
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        <a class="bibtexbutton" data-target="#supermarketabs">
+            
+            <i class="fa fa-list-alt"></i>&nbsp;abstract
+            
+        </a>
+
+        <div class="modal fade-in fast" id="supermarketabs">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Abstract</p>
+                    <a class="button close is-outlined is-primary is-small is-round">
+                        <span class="icon is-small">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </header>
+                <div class="modal-card-body markdown">
+                    <p id="text-to-copy">We examine a four-month-long randomized intervention that provided information about healthier alternatives when online grocery shoppers added certain less-healthy products to their baskets, leading to significant and persistent average increases in healthier purchases. Using machine learning techniques, we characterize consumers&rsquo; direct responsiveness to the intervention and broader changes in behavior. More-responsive consumers make healthier purchases beyond the immediate scope of the intervention; less-responsive consumers engage in more active shopping behaviors, spending more time shopping and making cost-saving substitutions. These results highlight the capacity of information-based approaches to not only affect isolated consumer decisions but also shape behavior across multiple domains.</p>
+                </div>
+                <footer class="modal-card-foot">
+                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                        
+                        <span class="icon is-small">
+                            <i class="fa fa-copy"></i>
+                        </span>
+                        
+                        <span>Copy</span>
+                    </a>
+                    
+                </footer>
+            </div>
+        </div>
+        
+
+
+        
+        
+            
+            <a href=files/papers/supermarket.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+            
+            
+            
+            
+            
+            
+
+            <a class="bibtexbutton" data-target="#supermarketbib">
+                
+                <i class="fa fa-quote-left"></i>&nbsp;bibtex
+                
+            </a>
+
+            <div class="modal fade-in fast" id="supermarketbib">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">BibTeX</p>
+                        <a class="button close is-outlined is-primary is-small is-round">
+                            <span class="icon is-small">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="modal-card-body markdown">
+                        <pre><code id="text-to-copy">@article{barlose2025nutritional,
+  title={Nutritional Nudges},
+  author={Barl{\o}se Wagner, Mathias and Eliaz, Kfir and Thakral, Neil and Weisburd, Sarit},
+  journal={Mimeo},
+  year={2025}
+}
+</code></pre>
+                    </div>
+                    <footer class="modal-card-foot">
+                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-copy"></i>
+                            </span>
+                            
+                            <span>Copy</span>
+                        </a>
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/supermarket.bib" download="supermarket.bib">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-download"></i>
+                            </span>
+                            
+                            <span>Download</span>
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="markdown has-text-left">
+<h4>
+    Five Facts about Tipping
+</h4>
+</div>
+
+
+<div class="columns">
+    <div class="column column-left is-one-third is-three-fifths-mobile is-offset-one-fifth-mobile is-centered">
+        
+            <a href= files/papers/tips.pdf>
+                <img class="img-paper-responsive" src="/img/papers/tips_hu_6684db3523d27006.jpeg">
+            </a>
+        
+    </div>
+    <div class="markdown column column-right is-vcentered">
+    <p style="font-size:1.5px;"><br></p>
+        <p>Higher defaults raise<br>
+tips, mute response to fare change.<br>
+Fare increase lowers<br>
+tip ratio. Tolls crowd out<br>
+tips but riders share windfalls.</p>
+<p><em>Neil Thakral and <a href="https://linh.to/">Linh Tô</a></em><br>
+Revise and Resubmit, <em>Review of Economics and Statistics</em></p>
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        <a class="bibtexbutton" data-target="#tipsabs">
+            
+            <i class="fa fa-list-alt"></i>&nbsp;abstract
+            
+        </a>
+
+        <div class="modal fade-in fast" id="tipsabs">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Abstract</p>
+                    <a class="button close is-outlined is-primary is-small is-round">
+                        <span class="icon is-small">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </header>
+                <div class="modal-card-body markdown">
+                    <p id="text-to-copy">Using administrative data on NYC yellow taxis around the September 4, 2012 fare increase and cross-vendor payment interfaces that hold displayed tip percentages constant, we document five facts about tipping.
+Higher bases raise tips even among non-default tippers; fare increases raise tip dollars but reduce tip ratios; identical dollar increases move tips more under lower bases; tolls crowd out tips when excluded from default bases but crowd in when included; and riders share unexpected fare windfalls with drivers.
+A simple model with a default-based norm and convex pain of paying rationalizes these facts and highlights design implications for digital tipping.</p>
+                </div>
+                <footer class="modal-card-foot">
+                    <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                        
+                        <span class="icon is-small">
+                            <i class="fa fa-copy"></i>
+                        </span>
+                        
+                        <span>Copy</span>
+                    </a>
+                    
+                </footer>
+            </div>
+        </div>
+        
+
+
+        
+        
+            
+            <a href=files/papers/tips.pdf><i class="fa fa-download"></i>&nbsp;paper</a>
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+            
+            
+            
+            
+            
+            
+
+            <a class="bibtexbutton" data-target="#tipsbib">
+                
+                <i class="fa fa-quote-left"></i>&nbsp;bibtex
+                
+            </a>
+
+            <div class="modal fade-in fast" id="tipsbib">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">BibTeX</p>
+                        <a class="button close is-outlined is-primary is-small is-round">
+                            <span class="icon is-small">
+                                <i class="fa fa-times"></i>
+                            </span>
+                        </a>
+                    </header>
+                    <div class="modal-card-body markdown">
+                        <pre><code id="text-to-copy">@article{thakral2026five,
+  title={Five Facts about Tipping},
+  author={Thakral, Neil and T{\^o}, Linh T},
+  journal={Mimeo},
+  year={2026}
+}
+</code></pre>
+                    </div>
+                    <footer class="modal-card-foot">
+                        <a class="button is-outlined is-primary is-rounded js-copy-cite">
+                            
+                            <span class="icon is-small">
+                                <i class="fa fa-copy"></i>
+                            </span>
+                            
+                            <span>Copy</span>
+                        </a>
+                        <a class="button is-outlined is-primary is-rounded" href="/files/bib/tips.bib" download="tips.bib">
                             
                             <span class="icon is-small">
                                 <i class="fa fa-download"></i>
